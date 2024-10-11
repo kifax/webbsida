@@ -1,5 +1,5 @@
 .container{
-    background-color: rgb(168, 111, 111);
+    background-color: rgb(106, 78, 78);
  
     display: grid;
     min-height: 100vh;
@@ -15,30 +15,38 @@
 }
 
 header{
+    display: flex;
     grid-area: header;
     background-color: darkgray;
+    justify-content:center ;
+    align-items: center;
+    gap: 20px;
 }
 header h1{
-    text-align: center;
 }
+.tiger{
+    width: 15%;
+}
+
 .navbar{
     grid-area: nav;
-    background-color:blue;
+    background-color:rgba(218, 153, 48, 0.776);
 }
 
 #left{
     grid-area: sideleft;
-    background-color:brown;
+    background-color:rgba(165, 115, 35, 0.999);
 }
 #right{
     grid-area: sideright;
-    background-color: aquamarine;
+    background-color: rgba(218, 153, 48, 0.64);
 }
 main{
     grid-area: main;
     background-color: azure;
+    
 }
 footer{
     grid-area: footer;
-    background-color: blueviolet;
+    background-color: rgba(218, 153, 48, 0.818);
 }
