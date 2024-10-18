@@ -14,6 +14,11 @@
     "footer footer footer";
    
 }
+.container :hover{
+    background-color:aliceblue;
+    transition: 0.5s;
+
+}
 
 header{
     display: flex;
@@ -42,6 +47,11 @@ header h1{
 .navbar{
     grid-area: nav;
     background-color:black;
+
+}
+.navbar a:hover {
+    background-color:aliceblue;
+    transition: 0.5s;
 }
 
 #left{
@@ -61,3 +71,4 @@ footer{
     grid-area: footer;
     background-color:rgb(109, 175, 234);
 }
+
