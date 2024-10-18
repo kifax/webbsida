@@ -12,41 +12,52 @@
     "nav nav nav"
     "sideleft main sideright"
     "footer footer footer";
+   
 }
 
 header{
     display: flex;
     grid-area: header;
-    background-color: darkgray;
+    background-color:rgba(58, 136, 203, 0.933);
     justify-content:center ;
     align-items: center;
     gap: 20px;
 }
 header h1{
+    background-color: rgb(157, 157, 179);
+    text-align: center;
+
 }
-.tiger{
-    width: 15%;
+.tiger1{
+    width: 10.1%;
+    margin: 0cm;
 }
 
+.tiger2{
+    width: 10%;
+    margin: auto;
+    justify-content:flex-end;    
+
+}
 .navbar{
     grid-area: nav;
-    background-color:rgba(218, 153, 48, 0.776);
+    background-color:black;
 }
 
 #left{
     grid-area: sideleft;
-    background-color:rgba(165, 115, 35, 0.999);
+    background-color:rgba(62, 120, 170, 0.953);
 }
 #right{
     grid-area: sideright;
-    background-color: rgba(218, 153, 48, 0.64);
+    background-color: rgba(62, 120, 170, 0.953);
 }
 main{
     grid-area: main;
-    background-color: azure;
+    background-color:rgb(110, 152, 189) ;
     
 }
 footer{
     grid-area: footer;
-    background-color: rgba(218, 153, 48, 0.818);
+    background-color:rgb(109, 175, 234);
 }
