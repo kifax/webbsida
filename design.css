@@ -13,7 +13,6 @@
     "sideleft main sideright"
     "footer footer footer";
 
-
    
 }
 .container :hover{
@@ -27,13 +26,17 @@ header{
     grid-area: header;
     background-color:rgba(58, 136, 203, 0.933);
     justify-content: space-between;
+    border: 1px solid orange;
 
 }
 
 header h1{
     text-align: center;
     
+    
 }
+
+
 .tiger1{
     width: 10.1%;
     margin: 0cm;
@@ -68,6 +71,8 @@ main{
     background-color:rgb(110, 152, 189) ;
     padding: 4%;
     justify-content: center;
+    border:1px solid orange;
+
     
 }
 
@@ -75,4 +80,5 @@ footer{
     grid-area: footer;
     background-color:rgb(47, 96, 139);
 }
+
 
